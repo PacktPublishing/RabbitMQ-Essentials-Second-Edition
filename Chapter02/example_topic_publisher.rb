@@ -1,8 +1,8 @@
 # Require client library
-require 'bunny'
+require "bunny"
 
 # Read RABBITMQ_URI from ENV
-connection = Bunny.new ENV['RABBITMQ_URI']
+connection = Bunny.new ENV["RABBITMQ_URI"]
 
 # Start a communication session with RabbitMQ
 connection.start
@@ -27,6 +27,6 @@ end
 exchange = on_start(channel)
 
 #	Order will go to any eco taxi
-order_taxi('taxi.eco', exchange)
+order_taxi("taxi.eco", exchange)
 #	Order will go to any taxi
-order_taxi('taxi', exchange)
+order_taxi("taxi", exchange)

@@ -2,7 +2,7 @@
 require "bunny"
 
 #	2. Read RABBITMQ_URI from ENV
-connection = Bunny.new ENV['RABBITMQ_URI']
+connection = Bunny.new ENV["RABBITMQ_URI"]
 
 #	3. Start a communication session with RabbitMQ
 connection.start
@@ -36,3 +36,4 @@ def taxi_subscribe(channel, taxi)
 end
 taxi = "taxi.1"
 taxi_subscribe(channel, taxi)
+

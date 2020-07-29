@@ -1,8 +1,8 @@
 #	1. Require client library
-require 'bunny'
+require "bunny"
 
 #	2. Read RABBITMQ_URI from ENV
-connection = Bunny.new ENV['RABBITMQ_URI']
+connection = Bunny.new ENV["RABBITMQ_URI"]
 
 #	3. Start a communication session with RabbitMQ
 connection.start

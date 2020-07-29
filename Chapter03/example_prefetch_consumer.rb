@@ -1,6 +1,6 @@
 require "bunny"
 
-connection = Bunny.new ENV['RABBITMQ_URI']
+connection = Bunny.new ENV["RABBITMQ_URI"]
 connection.start
 channel = connection.create_channel
 channel.prefetch(1)
@@ -18,7 +18,7 @@ def taxi_subscribe(channel, taxi)
   queue = channel.queue(taxi, durable: true)
 
   #	Declare a direct exchange, taxi-direct
-  exchange = channel.fanout('taxi-fanout')
+  exchange = channel.fanout("taxi-fanout")
 
   #	Bind the queue to the exchange
   queue.bind(exchange, routing_key: taxi)

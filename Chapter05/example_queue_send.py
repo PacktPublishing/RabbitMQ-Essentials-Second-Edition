@@ -22,6 +22,7 @@ try:
     ch.basic_publish(
         exchange="taxi_header_exchange",
         body=message,
-        properties=properties, routing_key="")
+        properties=properties,
+        routing_key="")
 finally:
     conn.close()

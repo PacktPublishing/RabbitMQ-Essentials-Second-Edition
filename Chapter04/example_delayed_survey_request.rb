@@ -12,10 +12,8 @@ DESTINATION_QUEUE="work.now"
 def publish(connection)
   #	4. Communication session
   channel = connection.create_channel
-
   # 5 Declare queue
-
-  channel.queue(DELAYED_QUEUE, arguments: { "x-dead-letter-exchange" => "", "x-dead-letter-routing-key" => DESTINATION_QUEUE, "x-message-ttl" => 3})
+  channel.queue(DELAYED_QUEUE, arguments: { "x-dead-letter-exchange" => "", "x-dead-letter-routing-key" => DESTINATION_QUEUE, "x-message-ttl" => 300000})
 
   # 6. Publish a message
   channel.default_exchange.publish "message content", routing_key:

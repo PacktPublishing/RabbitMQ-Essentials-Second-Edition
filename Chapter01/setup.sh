@@ -7,8 +7,7 @@ apt upgrade -y
 # install dependencies manually
 apt -y install curl gnupg apt-transport-https
 # download the package
-curl -fsSL https://github.com/rabbitmq/signing-keys/releases/download/2.0/rabbitmq-release-signing-key.asc
-apt-key add -
+curl -fsSL https://github.com/rabbitmq/signing-keys/releases/download/2.0/rabbitmq-release-signing-key.asc | apt-key add -
 tee /etc/apt/sources.list.d/bintray.rabbitmq.list <<EOF
 deb https://dl.bintray.com/rabbitmq-erlang/debian [os release name] erlang
 deb https://dl.bintray.com/rabbitmq/debian [os release name] main

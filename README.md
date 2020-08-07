@@ -69,10 +69,3 @@ He is a Mule champion and a DZone Most Valuable Blogger. He commits on multiple 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
 
-
-
-
-# RabbitMQ-Essentials-Second-Edition
-RabbitMQ Essentials - Second Edition, published by Packt
-
-

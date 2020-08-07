@@ -1,4 +1,4 @@
-# RabbitMQ Essentials-Second Edition
+# RabbitMQ Essentials - Second Edition
 
 <a href="https://www.packtpub.com/in/business-other/rabbitmq-essentials-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789131666"><img src="https://www.packtpub.com/media/catalog/product/cache/4cdce5a811acc0d2926d7f857dceb83b/9/7/9781789131666-original_42.jpeg" alt="RabbitMQ Essentials - Second Edition" height="256px" align="right"></a>
 

@@ -15,7 +15,7 @@ EOF
 
 # install the package with dpkg
 apt install -y rabbitmq-server
-aot install librabbitmq-dev
+apt install librabbitmq-dev
 service rabbitmq-server start
 rabbitmq-plugins enable rabbitmq_management
 

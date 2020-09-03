@@ -33,7 +33,7 @@ connection.start
 **Following is what you need for this book:**
 If you are a professional enterprise developer or someone who just codes for fun, RabbitMQ Essentials is a valuable resource on open-source message queue architecture. Even those already familiar with microservices and messaging will discover value in reading this book for an exploration of moving forward with best practices and resource efficiency. This book will give you the push you need to get started with creating new and exciting applications or migrating existing monoliths to a microservice architecture.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-7).
 
 ### Software and Hardware List
 
